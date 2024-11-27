@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        div{background-color: orange;
-            height: 50px;
+        
+        div /*본문배경색,상단텍스트색깔,배경너비*/
+
+        {background-color: orange;
+            color:white;
             width: 400px;
-            
-            }
+        }
         
-        b{color:blue;}
-        i{line-height: 50px;}
+        b  /*머릿말텍스트(선택자필요) 배경색,본문 앞라인글자색*/
         
-        p{text-align: center;
+        {color:blue;
+          background-color: beige;}
+        
+        i /*설명란 텍스트크기,텍스트색깔*/
+        
+        {line-height: 50px;
+          color:black;}
+        
+        p /*머릿말 CSS 색깔,가운데 정렬*/
+        
+        {text-align: center;
           color:red;}
-        strong{background-color: lime;
+        
+        strong /*머릿말 하단부,B태그와 구분,글자색,배경색*/
+        
+        {background-color: lime;
                color:white;
          }
         
@@ -26,17 +40,33 @@
     </style>
   </head>
   <body>
-    <div>오늘 수업 내용</div>
-    <p>
-      CSS - <strong>선택자 필요</strong> <br />
-      <b>태그이름,ID,CLASS,NAME,가상 선택자</b>
-    </p>
-    <hr />
-    <div><strong>배경색:</strong><i>background , background-color</i></div>
-    <div><strong>너비:</strong><i>width</i></div>
-    <div><strong>높이:</strong><i>height</i></div>
-    <div><strong>정렬:</strong><i>text-align</i></div>
-    <div><strong>글자색:</strong><i>color</i></div>
-
     
+    <div>
+       오늘 수업 내용
+    </div>
+
+    <p>
+
+         CSS - <b>선택자 필요</b> <br />
+        <strong>
+        태그이름,ID,CLASS,NAME,가상 선택자
+        </strong>
+    </p>
+   <hr />
+  
+   <div>
+      <b>배경색:</b><i>background , background-color</i><br>
+      <b>너비:</b><i>width</i><br>
+      <b>높이:</b><i>height</i><br>
+      <b>정렬:</b><i>text-align</i><br>
+      <b>글자색:</b><i>color</i><br>
+   </div>
+
+
+
+
+
+
+
+
 </html>
