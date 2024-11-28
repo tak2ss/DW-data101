@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- table태그의 하위카테고리 thead,tbody,tfooter-->
+      <caption>
+        맛있는 테이블
+      </caption>
+      <tr>
+        <th colspan="">th1</th>
+        <th>th2</th>
+        <th>th3</th>
+        <th>th4</th>
+        <th>th5</th>
+        <th>th6</th>
+      </tr>
+      <tr>
+        <td rowspan="2">th1</td>
+        <td colspan="2">th2</td>
+
+        <td rowspan="2">th4</td>
+        <td>th5</td>
+        <td rowspan="2">th6</td>
+      </tr>
+      <tr>
+        <td>th2</td>
+        <td>th3</td>
+
+        <td>th5</td>
+      </tr>
+    </table>
+  </body>
+</html>

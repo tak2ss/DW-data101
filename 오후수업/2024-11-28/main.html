@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border</title>
+    <style>
+      .td {
+        /*border-spacing: 0;*/
+        border-collapse: collapse;
+        /*background-color: pink;*/
+        /*테두리를 겹침*/
+      }
+      .col {
+        width: 100px;
+        height: 50px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: pink;
+        font-size: 30px;
+        color: purple;
+      }
+    </style>
+  </head>
+  <!-- tr.row*4>td.col*3{$} -->
+  <!-- 행(tr)4개 열(td)3개 {$}<-자동 숫자처리 -->
+
+  <body>
+    <table class="td">
+      <tr class="row">
+        <td class="col">1</td>
+        <td class="col">2</td>
+        <td class="col">3</td>
+        <td class="col">4</td>
+      </tr>
+      <tr class="row">
+        <td class="col">1</td>
+        <td class="col">2</td>
+        <td class="col">3</td>
+        <td class="col">4</td>
+      </tr>
+      <tr class="row">
+        <td class="col">1</td>
+        <td class="col">2</td>
+        <td class="col">3</td>
+        <td class="col">4</td>
+      </tr>
+    </table>
+  </body>
+</html>
