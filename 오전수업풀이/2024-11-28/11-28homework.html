@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Table solution</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>gmail</li>
+        <li>images</li>
+        <li>apps</li>
+        <li>signin</li>
+      </ul>
+    </header>
+    <main>
+      <!-- 헤더영역, header 태그 -->
+      <!-- ul,li 태그-->
+      <!-- table, cation, thead, tbody, thead, tr, th, td 태그 + rowspan, colspan 속성 -->
+      <!-- figure, figcaption, img, iframe 태그 -->
+      <table>
+        <caption>
+          table title: caption
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="7">테이블 빡샘</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">title1</td>
+            <td colspan="5"></td>
+            <td>비고</td>
+          </tr>
+          <tr>
+            <td>title1</td>
+            <td>title1</td>
+            <td>title1</td>
+            <td rowspan="2">title1</td>
+            <td>title1</td>
+            <td rowspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2">title1</td>
+            <td>title1</td>
+            <td>title1</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="7"></td>
+          </tr>
+        </tfoot>
+      </table>
+      <section>
+        <figure>
+          <figcaption>images</figcaption>
+          <img src="" alt="cat" />
+          <img src="" alt="dog" />
+        </figure>
+        <figure>
+          <figcaption>youtubes</figcaption>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/M5QY2_8704o?si=48SyR2fsWEmT0Djr"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </figure>
+      </section>
+    </main>
+  </body>
+</html>
