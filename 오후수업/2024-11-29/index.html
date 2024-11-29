@@ -1,0 +1,50 @@
+<!-- 태그의 여백강의 margin,padding -->
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box-1 {
+        background: skyblue;
+        width: 100px;
+        margin-top: 20px;
+        padding-left: 30px;
+
+        /*마진태그는 잘못쓰면 뒤틀리거나
+        상황에 맞지않게 나타날수있음
+        전체 크기에 '마진크기만큼'늘어남
+        <margin>=바깥여백
+        거리를 벌릴수있는방법은 많다.
+        *전체에서 큰 태그들사이에 사용됌*
+
+        <padding>=태그 내부의 크기
+            크기를 유지하면서 간격을 벌여줌
+            ***정해진 크기 안의 태그들 간격을 벌여줄때 사용됌***
+            태그의 총 너비,높이를 꼭 생각해서 기입할것
+            이유:최소값보다 높으면 부피가 설정값만큼 늘어나버림
+        */
+      }
+      .test {
+        background-color: firebrick;
+        color: whitesmoke;
+        font-size: 37px;
+        width: 510px;
+        height: 110px;
+        border: 5px solid black;
+        border-radius: 10px;
+        box-shadow: 5px 7px 2px 3px gray;
+        /*가장 큰것부터,바깥부터 
+        작은순으로 크기를 잡을것*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test">
+      오늘은 불타오르는 금요일 <br />
+      이 몸 불태우이라 공부하면서?
+    </div>
+    <div class="box-1">태그의 여백</div>
+  </body>
+</html>
