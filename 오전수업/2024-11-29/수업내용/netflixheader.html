@@ -1,0 +1,51 @@
+<!--넷플릭스 기본구조 만들어보기(class부여) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>netflixheader</title>
+    <style>
+      .first {
+        display: flex;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- .first 만들면 (div태그에 first class를
+         입혀준 채로 생성됨 !)div는 기본옵션  -->
+      <div class="first">
+        <button>logo</button>
+        <ul>
+          <li class="first">
+            <button>한국어</button>
+          </li>
+          <li>
+            <button>로그인</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ul*2>li*4 -->
+
+      <div>
+        <ul class="first">
+          <li>
+            <button>지금 뜨는 컨텐츠</button>
+          </li>
+          <li>
+            <button>맴버쉽</button>
+          </li>
+          <li>
+            <button>가입해야하는 이유</button>
+          </li>
+          <li>
+            <button>자주 묻는 질문</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
