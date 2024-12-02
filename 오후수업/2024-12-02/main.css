@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.wrap {
+  width: 1200px;
+  border: 2px solid black;
+  margin: 0 auto;
+  /* margin:0 auto 를사용하려면 너비가 꼭 들어가야함 */
+}
+.header {
+  width: 100%;
+  /* 만들때는 가장 바깥쪽 메인크기부터 안쪽으로.
+  바깥쪽은 고정값,안쪽크기는 상대값(%) 
+  vertical-align:middle 수직정렬*/
+  border: 2px solid red;
+  /* height: 200px; */
+  padding: 50px 0;
+  text-align: center;
+
+  /* 자녀태그가 높이를가질시,부모태그도 높이를가지게됨 */
+}
+.name {
+}
+.footer {
+}
+.menu {
+  font-size: 20px;
+  padding: 30px 60px;
+  /* margin: 0 30px; */
+}
+.menu:hover {
+  cursor: pointer;
+  color: blueviolet;
+  font-size: 130%;
+}
+.order {
+  padding: 0;
+  list-style-type: none;
+}
+.hot {
+  list-style-type: none;
+  font-size: 25px;
+  padding: 0px;
+  /* line-height: 50px; */
+}
+/* .main 띄우고 img <-메인태그 아래에있는 이미지태그 */
+.main img {
+  width: 100%;
+}
+.main {
+  padding: 50px;
+}
+
+.footer {
+  background-color: gray;
+  padding: 100px;
+}
+
+.addr {
+  color: black;
+  font-size: 30px;
+}
+.make {
+  color: yellow;
+  text-align: right;
+  font-size: 20px;
+}
