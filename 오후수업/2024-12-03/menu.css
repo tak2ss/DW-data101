@@ -1,0 +1,30 @@
+/* menu css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.menu {
+  /* display:inline->블록태그를 인라인으로 만듦
+    빼먹지말고 !!!!(가로로 정렬해줌) */
+  display: inline-block;
+  padding: 15px 30px;
+}
+.menu:hover {
+  background-color: white;
+  color: darkcyan;
+  border-radius: 10px;
+  height: 70px;
+  font-size: 30px;
+}
