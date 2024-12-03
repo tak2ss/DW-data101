@@ -1,0 +1,41 @@
+<!-- form태그 활용 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clone</title>
+    <style>
+      input:hover {
+        background-color: ;
+      }
+      input:fous {
+        outline-color: red;
+      }
+      fieldset {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <!-- form안에 fieldset input,label은 세트 ! -->
+        <!-- input:submit=button -->
+        <!-- input:reset=button:reset -->
+        <!-- input:button=button -->
+
+        <label for="email">email</label>
+        <input type="text" id="email" />
+      </fieldset>
+
+      <fieldset>
+        password<input type="password" name="" id="1" />
+        <label for="password"></label>
+      </fieldset>
+      <input type="submit" value="로그인" />
+      <button type="button">회원가입</button>
+      <button type="reset">리셋</button>
+    </form>
+  </body>
+</html>
