@@ -7,44 +7,48 @@
   margin: 0 auto;
   width: 1000px;
 }
+
 .top {
   width: 100%;
   margin-bottom: 20px;
 }
+
 .nav {
-  padding: 0;
   margin: 0;
-  background: #247ef3;
-  border-radius: 10px;
+  padding: 0;
+  background-color: #247ef3;
+  font-size: 20px;
+  border-radius: 9px;
 }
+
 .menu {
   display: inline-block;
   padding: 15px 30px;
   color: white;
-  font-size: 20px;
 }
+
 .menu:hover {
-  background: white;
+  cursor: pointer;
+  background-color: white;
   color: #247ef3;
   border-radius: 9px;
 }
-.main {
+.picture {
   width: 100%;
-}
-.imgBox img {
-  width: 100%;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 .notice {
   width: 300px;
   margin-left: 50px;
   padding: 10px 0;
 }
-.notice_title {
-  background: #fdd35e;
-  border-radius: 10px;
+.notice_title 
+/* 각자 백그라운드칼라를 입히고
+마진10을 주면 각각의 개채로 나눠져서 여백이생김 */ {
+  background-color: goldenrod;
   margin: 10px 0;
-  padding: 10px;
+  border-radius: 7px;
+  padding: 5px;
 }
 .preview {
   width: 100%;
