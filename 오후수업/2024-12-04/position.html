@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #wrap1 {
+        width: 600px;
+        height: 500px;
+        background: rgb(185, 173, 230);
+        position: relative;
+      }
+      #box1 {
+        width: 200px;
+        height: 200px;
+        background-color: honeydew;
+        position: relative;
+        /* 자신이 만들어지는 위치가 기준
+        왼쪽상단이 시작 기준임
+        position absolute는 단독(다른태그들이 없다고 인식함) */
+        top: 10px;
+        left: 10px;
+      }
+      #box2 {
+        width: 200px;
+        height: 200px;
+        background: lightgreen;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap1">
+      <div id="box1">box1</div>
+      <div id="box2">box2</div>
+    </div>
+  </body>
+</html>

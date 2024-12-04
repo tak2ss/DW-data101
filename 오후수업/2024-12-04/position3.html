@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position3</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #wrap {
+        width: 1200px;
+        height: 900px;
+        position: relative;
+        background-color: rgb(180, 163, 198);
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+      }
+      #box1 {
+        background-color: rgb(232, 112, 69);
+        position: relative;
+        left: 800px;
+      }
+      #box2 {
+        background-color: rgb(228, 232, 185);
+        position: relative;
+        left: 900px;
+      }
+      #box3 {
+        background-color: rgb(100, 86, 233);
+        position: absolute;
+        top: 0;
+        left: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="box1" class="box">box1이다</div>
+      <div id="box2" class="box">box2이다</div>
+      <div id="box3" class="box">box3이다</div>
+    </div>
+  </body>
+</html>

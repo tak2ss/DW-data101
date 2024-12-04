@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <h1>회원가입을 환영합니다.</h1>
+
+        <fieldset>
+          <legend><b>사용자 정보</b></legend>
+          <div>
+            <label for="id">아이디</label>
+            <input type="text" id="id" placeholder="6~12자 내외" />
+          </div>
+          <div>
+            <label for="email">이메일</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="pwc">비밀번호</label>
+            <input type="password" id="pwc" placeholder="특수문자 포함" />
+          </div>
+          <div>
+            <label for="pwc1">비밀번호 확인</label>
+            <input type="password" id="pwc1" placeholder="특수문자 포함" />
+          </div>
+          <div>
+            <label for="path">가입경로</label>
+            <select name="" id="path">
+              <option>가입경로</option>
+              <option value="1">SNS</option>
+              <option value="2">YOUTUBE</option>
+              <option value="3">지인소개</option>
+            </select>
+          </div>
+          <div>
+            <label for="m">메모</label>
+            <textarea name="" id="m"></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>이벤트와 새로운 소식</legend>
+          <input type="radio" id="y" name="1" />메일 수신
+          <input type="radio" id="y" name="1" />메일 수신 안함
+        </fieldset>
+        <ul>
+          <li>
+            <button type="button">가입하기</button>
+            <button type="button">취소</button>
+          </li>
+        </ul>
+      </form>
+    </main>
+  </body>
+</html>
