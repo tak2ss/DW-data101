@@ -1,0 +1,20 @@
+div.img {
+  border: 2px solid tomato;
+  position: relative;
+}
+
+div.img .ab {
+  position: absolute;
+}
+
+div.img h1 {
+  color: darkgray;
+  top: 10px;
+  left: 50px;
+}
+
+div.img img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

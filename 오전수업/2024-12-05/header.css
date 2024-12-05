@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(29, 28, 28);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button.globe {
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 36px;
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+  column-gap: 10px;
+}
+
+button.globe img {
+  width: 20px;
+}
+button.log {
+  background-color: whitesmoke;
+  color: black;
+  height: 40px;
+  border-radius: 36px;
+  cursor: pointer;
+  padding: 0 10px;
+  /* 마우스 올렸을때 천천히 변환해줌 */
+  transition: all 1s;
+}
+button.log:hover {
+  background-color: lightgray;
+}
+button.title {
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 900;
+  color: red;
+  border: none;
+}

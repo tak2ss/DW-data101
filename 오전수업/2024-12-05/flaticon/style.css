@@ -1,0 +1,40 @@
+/* reset-css를 복붙하는 방법도 있다 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60px;
+}
+
+header,
+wrap,
+ul {
+  display: flex;
+  background-color: navy;
+  list-style-type: none;
+  align-items: center;
+}
+
+.wrap {
+  display: flex;
+}
+
+.ul {
+  display: flex;
+}
+header button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+header > .wrap {
+  justify-content: space-between;
+  width: 100%;
+}
+header img {
+  width: 20px;
+  height: 20px;
+}

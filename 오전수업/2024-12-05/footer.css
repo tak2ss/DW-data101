@@ -1,0 +1,24 @@
+footer {
+  color: gray;
+}
+footer ul {
+  display: flex;
+  column-gap: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer div.f2 {
+  flex-direction: column;
+}
+
+footer a {
+  color: white;
+  padding: 10px;
+}
+div.f4 {
+  font-size: 0.9rem;
+}
+footer li {
+  padding: 5px;
+}
