@@ -9,16 +9,14 @@ header {
 }
 
 header,
-wrap,
+.wrap,
 ul {
   display: flex;
   background-color: navy;
   list-style-type: none;
   align-items: center;
-}
-
-.wrap {
-  display: flex;
+  column-gap: 30px;
+  padding: 5px;
 }
 
 .ul {
@@ -29,6 +27,7 @@ header button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  font-size: 15px;
 }
 header > .wrap {
   justify-content: space-between;
