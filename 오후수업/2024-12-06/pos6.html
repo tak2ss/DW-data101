@@ -1,0 +1,58 @@
+<!--
++++<position>태그속성+++ 
+ relative--
+기준 - 부모태그가 처음화면에 생성되는 위치 기준으로 이동(태그의 왼쪽상단 점 이 기준) 부모태그에 영향을 준다. (html태그 구조 유지)
+
+ absolute--
+기준 - 가까운 상위 태그중에서 position값을 가진 태그의 영역기준
+html태그 구조순서에서 이탈한다.
+상위태그에 속하는 경우 해탕대그 4면을 기준으로 이동
+ 
+ fixed--
+기준 - 브라우저 화면 기준
+브라우저의 크기가 변해도 지정된 위치를 유지하고
+스크롤의 위치를 변경해도 지정된 위치를 유지한다.
+
+ sticky
+기준 - 처음 위치에서 스크롤의 위치가 변하면 화면에 고정된 상태로 이동된다.
+      기준은 스크롤과 상위 태그 이다.
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pos6.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <b class="menu">영화</b>
+        <b class="menu">게임</b>
+        <b class="menu">음악</b>
+        <b class="menu">장난감</b>
+      </div>
+      <div id="main">
+        <div id="move">
+          <a href="#header" id="top">top</a>
+          <!-- a태그 href="안에 이동할 태그(class,id로)" -->
+        </div>
+        <div>
+          <div class="imgbox">
+            <img src="https://loremflickr.com/700/500/movie" alt="" />
+          </div>
+          <div class="imgbox">
+            <img src="https://loremflickr.com/700/500/game" alt="" />
+          </div>
+          <div class="imgbox">
+            <img src="https://loremflickr.com/700/500/music" alt="" />
+          </div>
+          <div class="imgbox">
+            <img src="https://loremflickr.com/700/500/toy" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

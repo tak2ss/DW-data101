@@ -19,7 +19,7 @@ ul {
   padding: 5px;
 }
 
-.ul {
+ul {
   display: flex;
 }
 header button {
@@ -36,4 +36,7 @@ header > .wrap {
 header img {
   width: 20px;
   height: 20px;
+}
+button :active {
+  background-color: magenta;
 }

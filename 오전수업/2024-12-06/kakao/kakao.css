@@ -1,0 +1,11 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+.f {
+  display: flex;
+  list-style-type: none;
+}
+.sb {
+  justify-content: space-between;
+}

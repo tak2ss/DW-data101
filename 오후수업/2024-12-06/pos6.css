@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+#header {
+  background-color: lightblue;
+  padding: 20px 0;
+  /* 스티키는 릴레이티브,픽스 섞어놓은느낌
+  브라우저 창이 변화되도 보이지않음 */
+  position: sticky;
+  top: 0px;
+}
+.menu {
+  padding: 0 30px;
+}
+#move {
+  /* fixed는 브라우저기준으로 잡힌다 
+    html의 문서내용에서 빠짐 기준은 무조건 브라우저
+    브라우저 크기가 바뀌어도 보이게됨*/
+  position: fixed;
+  left: 100px;
+  bottom: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+}

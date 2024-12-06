@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.titlebt {
+  border-style: none;
+}
+.wrap {
+  display: flex;
+  list-style-type: none;
+  padding: 0 10px;
+  color: white;
+}
+button > img {
+  width: 20px;
+  height: 20px;
+}
+header {
+  background: navy;
+}
