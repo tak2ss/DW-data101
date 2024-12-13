@@ -1,0 +1,63 @@
+.gal {
+  padding: 20px;
+}
+.gal .wrap {
+  border: 1px solid;
+  position: relative;
+}
+.gal img {
+  width: 100%;
+  object-fit: cover;
+}
+.gal button {
+  position: absolute;
+  border: 1px solid var(--gray6);
+  background-color: var(--gray8);
+  border-radius: 100px;
+  padding: 20px 3px;
+  top: 50%;
+}
+.gal button:hover {
+  opacity: 1;
+  background-color: var(--gray7);
+}
+.gal button.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.gal button.r {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.gal {
+  padding: 20px;
+}
+.gal .wrap {
+  position: relative;
+}
+.gal img {
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid;
+  object-fit: cover;
+}
+.gal button {
+  position: absolute;
+  border: 1px solid var(--gray6);
+  background-color: var(--gray8);
+  border-radius: 100px;
+  padding: 20px 3px;
+  top: 50%;
+}
+.gal button:hover {
+  opacity: 1;
+  background-color: var(--gray7);
+}
+.gal button.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.gal button.r {
+  right: 0;
+  transform: translate(50%, -50%);
+}
