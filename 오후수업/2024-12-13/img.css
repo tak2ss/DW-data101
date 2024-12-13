@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+#img_test img {
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  transition: all 0.7s ease-in-out;
+
+  /* height: 200px; */
+}
+#img_test {
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+#img_test:hover img {
+  /* width: 130%; */
+  /* translate: ; */
+  transform: rotate3d(1, 0, 1, -30deg);
+  /* transform-확대,축소,위치변경,회전,반전,비틀기,3d효과 */
+}
+#card {
+  margin-top: 50px;
+  width: 300px;
+  height: 450px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px cadetblue;
+  padding: 10px;
+}
+.img_box {
+  height: 300px;
+  background: url(./img11.png) no-repeat;
+  background-size: cover;
+}
+#card:hover .img_box {
+  transform: scale(1.3);
+}
+.card_wrap {
+  overflow: hidden;
+}
+.text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 텍스트 굵기변경:font-weight
+                   100단위로 표현가능 900까지
+                   글꼴변경 : font-family:'궁서'
+                   텍스트 옵션 :text-decoration:underline;
+                   line-through - 취소선
+ 글자 변환 : text - transform : uppercase; 대문자
+                                lowercase; 소문자
+                                capitalize; 첫글자만 대문자
+문자와 문자 간격
+     letter-spacing : 5px;-> 한 글나라
+단어 간격
+     word-spacing: 7px; ->아버지 , 가방*/
