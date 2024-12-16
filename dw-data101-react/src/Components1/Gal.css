@@ -1,0 +1,28 @@
+#gal {
+  margin: 20px;
+  position: relative;
+}
+.wrap {
+  border: 1px solid;
+  position: absolute;
+  padding: 20px 5px;
+  background-color: var(--gray7);
+  border: 1px solid var(--gray5);
+}
+#gal .wrap button.chev.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+#gal .wrap button.chev.r {
+  transform: translate(-50%, -50%);
+}
+#gal.wrap.txts {
+  border: 1px solid;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+#gal.wrap.img {
+  border: 1px solid;
+  border-radius: 5px;
+}

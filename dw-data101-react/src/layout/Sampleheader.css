@@ -1,0 +1,14 @@
+* {
+  width: 1200px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.wrap {
+  display: flex;
+}
+.menu {
+  display: flex;
+  color: black;
+}

@@ -1,0 +1,8 @@
+.zz1 {
+  border: 1px solid;
+  padding: 0 20px;
+}
+.zzi p {
+  font-size: 0.8rem;
+  color: var(--gray4);
+}

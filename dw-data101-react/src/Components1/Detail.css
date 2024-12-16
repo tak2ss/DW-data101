@@ -1,0 +1,21 @@
+.detail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--gray8);
+  border-radius: 10px;
+  padding: 15px;
+  background-color: darkslategray;
+}
+.detail:hover {
+  background-color: var(--gray7);
+  transition: all 1s;
+}
+
+.on {
+  width: 200px;
+  margin-top: 10px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 2px;
+}
