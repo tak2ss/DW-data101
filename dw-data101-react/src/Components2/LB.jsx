@@ -1,5 +1,6 @@
 import React from "react";
 import "./LB.css";
+
 const LB = () => {
   return (
     <div className="lb">

@@ -64,38 +64,38 @@
 //
 //
 
-import React from "react";
-import Header from "./Components2/Header";
-import Calendar from "./Components2/Calendar";
-import Detail from "./Components2/Detail";
-import Gallary from "./Components2/Gallary";
-import Hinput from "./Components2/Hinput";
-import LButton from "./Components2/LButton";
-import Poster from "./Components2/Poster";
-import Reason from "./Components2/Reason";
-import FAQ from "./Components2/FAQ";
-import LB from "./Components2/LB";
+// import React from "react";
+// import Header from "./Components2/Header";
+// import Calendar from "./Components2/Calendar";
+// import Detail from "./Components2/Detail";
+// import Gallary from "./Components2/Gallary";
+// import Hinput from "./Components2/Hinput";
+// import LButton from "./Components2/LButton";
+// import Poster from "./Components2/Poster";
+// import Reason from "./Components2/Reason";
+// import FAQ from "./Components2/FAQ";
+// import LB from "./Components2/LB";
 
-const App = () => {
-  return (
-    <>
-      <Header />
-      <main>
-        <Gallary />
-        <Calendar />
-        <Detail />
-        <Hinput />
-        <LButton />
-        <Poster />
-        <Reason />
-        <FAQ />
-        <LB />
-      </main>
-    </>
-  );
-};
+// const App = () => {
+//   return (
+//     <>
+//       <Header />
+//       <main>
+//         <Gallary />
+//         <Calendar />
+//         <Detail />
+//         <Hinput />
+//         <LButton />
+//         <Poster />
+//         <Reason />
+//         <FAQ />
+//         <LB />
+//       </main>
+//     </>
+//   );
+// };
 
-export default App;
+// export default App;
 
 //
 //
@@ -160,3 +160,18 @@ export default App;
 // };
 
 // export default App;
+//
+//
+//
+//
+//
+//
+//
+
+import React from "react";
+
+const App = () => {
+  return <div>App</div>;
+};
+
+export default App;
