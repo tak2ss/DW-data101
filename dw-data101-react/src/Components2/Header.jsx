@@ -5,12 +5,11 @@ import "./LButton.css";
 const Header = () => {
   return (
     <div>
-      Header
       <div className="logo">
         <button>
           <img
             className="img"
-            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA2MTBfMjc2%2FMDAxNzE3OTg2ODM4Mzk0.1qzWWfn5aBA1qCIOFzCx6O2J_4Omw8L9bwO391_P1X0g.oQSgE6ZwzHRNf_tbkPBoEUW-yKIAIuI13dJTC8PqCl0g.PNG%2Fnetflix-symbol-black.png&type=sc960_832"
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMDVfNyAg%2FMDAxNzI4MDg3Nzc5NjA2.xBBUJXitC_KaIsgu9QXvkY4ZKsvDyJmtnz8U4_ktsSUg.hQ6FNaCNM5o5fXYZLgHSjPZ5YaUUp_v5_kb2GYvDSaYg.JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5%25C6%25C4%25C0%25CF.jpg&type=sc960_832"
             alt=""
           />
         </button>

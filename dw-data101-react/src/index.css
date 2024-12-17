@@ -143,8 +143,12 @@ a {
   border: none;
   color: inherit;
   text-decoration: none;
+  background-color: transparent;
 }
 body {
   background-color: var(--gray9);
   color: var(--gray0);
+}
+img {
+  width: 100%;
 }

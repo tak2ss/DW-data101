@@ -1,0 +1,17 @@
+.re {
+  border: 1px solid;
+  padding: 20px;
+  row-gap: 10px;
+}
+.re ul {
+  border: 1px solid;
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.re div {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--gray8);
+}

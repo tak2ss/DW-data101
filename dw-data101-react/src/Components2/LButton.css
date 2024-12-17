@@ -1,0 +1,29 @@
+.lbt {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid white;
+  background-color: black;
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+.rbt {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid white;
+  background-color: black;
+  position: absolute;
+  top: 500px;
+  right: 100px;
+}
+
+.rbt:hover {
+  background-color: var(--gray8);
+  transition: all 0.5s;
+}
+.lbt:hover {
+  background-color: var(--gray8);
+  transition: all 0.5s;
+}

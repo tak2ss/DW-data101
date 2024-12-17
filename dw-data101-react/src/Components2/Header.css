@@ -1,13 +1,10 @@
-* {
-  witdh: 1200px;
-}
 .logo {
   height: 50px;
   display: flex;
   justify-content: space-between;
 }
 .img {
-  width: 50px;
+  width: 100px;
   height: 50px;
 }
 .wrap {
